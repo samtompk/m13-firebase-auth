@@ -33,9 +33,25 @@
     <section class="container">
         <h3>Sign up for an Account</h3>
         <!-- Input your form here -->
-
+        <div class="input-field">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="display_name" type="text" class="validate">
+                <label for="display_name">Display Name</label>
+            </div>
+            <a class="waves-effect waves-light btn" id="submit">submit</a>
+        </div>
         <div>
             <!-- Paragraph + Link to sign-in form -->
+            <p>Already have an account? Click here to sign in.</p>
+            <a class="waves-effect waves-light btn" href="sign-in.html">sign in</a>
         </div>
     </section>
 </body>
